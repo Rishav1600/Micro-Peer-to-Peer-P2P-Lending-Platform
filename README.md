@@ -1,34 +1,61 @@
-A full-stack web application that enables direct lending and 
-borrowing between individuals without traditional banks as 
-intermediaries.
+Micro Peer-to-Peer (P2P) Lending Platform:-
 
- Features:- 
-
--  User Registration & Authentication (Login/Signup)
--  Borrower can request micro loans
--  Lender can view and fund loan requests
--  Loan Management (Apply, Track, Repay)
--  Dashboard for borrowers and lenders
--  Secure REST API backend
--  Responsive frontend UI
+A full-stack Micro P2P Lending Platform that directly connects 
+borrowers and lenders without traditional banks. Borrowers can 
+apply for micro loans and lenders can fund them with secure 
+Stripe payment integration.
 
 
-Tech Stack Used:- 
 
- Frontend:- 
-- HTML, CSS, JavaScript (Vanilla)
+Description:-
+A web application where borrowers can create loan requests and 
+lenders can browse and fund those loans. Includes repayment 
+scheduling, email notifications, role-based dashboards, and 
+secure payment processing via Stripe.
+
+
+Features:-
+
+- User Registration & Authentication (Login/Signup)
+- Role-Based Access (Borrower & Lender)
+- Borrower Dashboard - Create & manage loan requests
+- Lender Dashboard - Browse & fund loan requests
+- Repayment Scheduling & Tracking
+- Stripe Payment Integration
+- Email Notifications via Nodemailer
+- Notification Panel
+- Protected Routes with JWT Authentication
 - Responsive UI Design
 
- Backend
+
+
+Tech Stack Used:-
+
+Frontend:-
+- React.js 19
+- React Router DOM
+- Stripe React Integration
+- Lucide React Icons
+- Vite (Build Tool)
+
+Backend:-
 - Node.js
 - Express.js
-- REST API Architecture
-- MySQL / MongoDB Database
+- MongoDB (Database)
+- Mongoose (ODM)
+- JWT (Authentication)
+- Bcryptjs (Password Hashing)
+- Stripe (Payment Gateway)
+- Nodemailer (Email Notifications)
+- Node-Cron (Repayment Scheduler)
+- Helmet & Morgan (Security & Logging)
 
 
- Project Structure:-
- backend:- Node.js + Express REST API
 
- fronted:- HTML, CSS, JS Frontend
+Project Structure:-
 
- .gitignore
+backend:- Node.js + Express + MongoDB REST API
+
+fronted:- React.js Frontend
+
+.gitignore
