@@ -8,6 +8,7 @@ Stripe payment integration.
 
 
 Description:-
+
 A web application where borrowers can create loan requests and 
 lenders can browse and fund those loans. Includes repayment 
 scheduling, email notifications, role-based dashboards, and 
